@@ -1,0 +1,97 @@
+{
+  "summary": {
+    "total_samples": 100,
+    "male_samples": 50,
+    "female_samples": 50,
+    "features_count": 11,
+    "classification_accuracy": 0.88,
+    "threshold_used": 0.1480583791958438
+  },
+  "confusion_matrix": {
+    "male": {
+      "male": 44,
+      "female": 6
+    },
+    "female": {
+      "male": 6,
+      "female": 44
+    }
+  },
+  "sample_data": [
+    {
+      "sample_id": "male_000",
+      "gender": "male",
+      "mean_frequency_khz": 0.11711819340844143,
+      "std_frequency_khz": 0.04827096399668481,
+      "median_frequency_khz": 0.10777368276864675,
+      "q1_frequency_khz": 0.09052975587648295,
+      "q3_frequency_khz": 0.14681029290542782,
+      "iqr_frequency_khz": 0.04753969878488565,
+      "skewness": 0.5996955032203146,
+      "kurtosis": 1.866331260751416,
+      "mode_frequency_khz": 0.0956608263170961,
+      "peak_frequency_khz": 0.20463539146803422,
+      "duration_seconds": 2.6161488684533603
+    },
+    {
+      "sample_id": "male_001",
+      "gender": "male",
+      "mean_frequency_khz": 0.14327117373198286,
+      "std_frequency_khz": 0.05656636506798669,
+      "median_frequency_khz": 0.11221014354887664,
+      "q1_frequency_khz": 0.0689251759648277,
+      "q3_frequency_khz": 0.12463344081280707,
+      "iqr_frequency_khz": 0.07369513292816804,
+      "skewness": 0.8933242481612145,
+      "kurtosis": 2.020828431951692,
+      "mode_frequency_khz": 0.09787353412458433,
+      "peak_frequency_khz": 0.2212710488160348,
+      "duration_seconds": 1.7732273509956609
+    },
+    {
+      "sample_id": "male_002",
+      "gender": "male",
+      "mean_frequency_khz": 0.1137544536571088,
+      "std_frequency_khz": 0.05490362532593525,
+      "median_frequency_khz": 0.12746808770758894,
+      "q1_frequency_khz": 0.07639055491017296,
+      "q3_frequency_khz": 0.15941499646719776,
+      "iqr_frequency_khz": 0.07372320173992622,
+      "skewness": 0.7346980426110926,
+      "kurtosis": 1.4433888928759138,
+      "mode_frequency_khz": 0.11136501375170772,
+      "peak_frequency_khz": 0.13941918433099443,
+      "duration_seconds": 1.190027288890574
+    },
+    {
+      "sample_id": "male_003",
+      "gender": "male",
+      "mean_frequency_khz": 0.10786218543600995,
+      "std_frequency_khz": 0.040841899536540056,
+      "median_frequency_khz": 0.12752024486112812,
+      "q1_frequency_khz": 0.08996398849419343,
+      "q3_frequency_khz": 0.11952313146760761,
+      "iqr_frequency_khz": 0.08271042135022001,
+      "skewness": 0.19933915272729508,
+      "kurtosis": 1.9568780768318579,
+      "mode_frequency_khz": 0.09412200444086936,
+      "peak_frequency_khz": 0.20457679429843686,
+      "duration_seconds": 2.9093181557718832
+    },
+    {
+      "sample_id": "male_004",
+      "gender": "male",
+      "mean_frequency_khz": 0.13276827581584888,
+      "std_frequency_khz": 0.05349885101869209,
+      "median_frequency_khz": 0.12299896195612597,
+      "q1_frequency_khz": 0.08717738056475177,
+      "q3_frequency_khz": 0.13432536336951,
+      "iqr_frequency_khz": 0.05923943359275134,
+      "skewness": 0.3590095177591959,
+      "kurtosis": 2.2496632002383907,
+      "mode_frequency_khz": 0.09499768858005232,
+      "peak_frequency_khz": 0.2934301688992219,
+      "duration_seconds": 2.090353728906753
+    }
+  ]
+}
